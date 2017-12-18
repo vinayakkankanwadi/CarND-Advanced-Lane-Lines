@@ -49,7 +49,7 @@ Required Files
 Camera Calibration
 ---
 - Camera correct matrix points
-  <img src="output_images/point-calibration.PNG" width="320" height="160" alt="Project" />
+  <br><img src="output_images/point-calibration.PNG" width="850" height="240" alt="Point" />
 
 
 OpenCV functions or other methods were used to calculate the correct camera matrix and distortion coefficients using the calibration chessboard images provided in the repository (note these are 9x6 chessboard images, unlike the 8x6 images used in the lesson). The distortion matrix should be used to un-distort one of the calibration images provided as a demonstration that the calibration is correct. Example of undistorted calibration image is Included in the writeup (or saved to a folder).
