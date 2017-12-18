@@ -63,12 +63,20 @@ Camera Calibration
 
 Pipeline (test images)
 ---
-### 1. Example of Distortion Corrected Image
+### [Example of Distortion Corrected Image and its application on test_images](./output_images/car-undistort.PNG)
   - cv2.undistort: to undistort image using the calibated camera
   - result can be found in **./output_images** [test1](./output_images/undistorted_test1.jpg), [test2](output_images/undistorted_test2.jpg), [test3](output_images/undistorted_test3.jpg), [test4](output_images/undistorted_test4.jpg), [test5](output_images/undistorted_test5.jpg), [test6](output_images/undistorted_test6.jpg), [straight1](output_images/undistorted_straight_lines1.jpg), [straight2](output_images/undistorted_straight_lines1.jpg)
   <br><img src="output_images/car-undistort.PNG" width="850" height="240" alt="Point" />
 
-## Distortion Correction
+### [Create threshold binary image](./output_images/threshold-binary.PNG)
+  <br><img src="./output_images/threshold-binary.PNG" width="850" height="240" alt="Point" />
+- Color transform
+- Gradients
+- 
+Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image. Provide an example of a binary image result.
+	
+
+A method or combination of methods (i.e., color transforms, gradients) has been used to create a binary image containing likely lane pixels. There is no "ground truth" here, just visual verification that the pixels identified as part of the lane lines are, in fact, part of the lines. Example binary images should be included in the writeup (or saved to a folder) and submitted with the project.
 
 ## Lane Mask Generation
 - Color Channel Selection
