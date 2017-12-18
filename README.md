@@ -39,7 +39,7 @@ Result
 
  Project Video          |  Challenge Video |  Harder Challenge Video
  :-------------------------:|:-------------------------:|:-------------------------:
- <img src="output_videos/challenge_video_output.gif" width="320" height="160" alt="Project" /> |<img src="output_videos/harder_challenge_video_output.gif" width="320" height="160" alt="Challenge" /> |  <img src="output_videos/harder_challenge_video_output.gif" width="320" height="160" alt="Harder" />
+ <img src="output_videos/project_video_out.gif" width="320" height="160" alt="Project" /> |<img src="output_videos/harder_challenge_video_output.gif" width="320" height="160" alt="Challenge" /> |  <img src="output_videos/harder_challenge_video_output.gif" width="320" height="160" alt="Harder" />
  
 
 
