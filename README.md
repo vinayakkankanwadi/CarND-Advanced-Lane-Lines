@@ -72,8 +72,7 @@ Pipeline (test images)
 - Result
   <br><img src="./output_images/threshold-binary.PNG" width="850" height="240" alt="Point" />
    
-   [undistort_and_threshold()](./notebook/CarND-Advanced-Lane-Lines.ipynb) function applies color transformation and sobel operator to generated thresholded binary image.
-
+- [undistort_and_threshold()](./notebook/CarND-Advanced-Lane-Lines.ipynb) function applies color transformation and sobel operator to generated thresholded binary image.
 - **Color Channel Selection:** HLS color space Saturation channel used due to better lane lines detection
 - **Gradients:** Sobel threshold X used as it identify lanes better
 - Directional and Magnitude thresholds has very minimal to no effect on thresholded binary image.
