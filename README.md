@@ -36,11 +36,15 @@ Approach
 
 Result
 ---
-
  Project Video          |  Challenge Video |  Harder Challenge Video
  :-------------------------:|:-------------------------:|:-------------------------:
  <img src="output_videos/project_video_out.gif" width="320" height="160" alt="Project" /> |<img src="output_videos/challenge_video_output.gif" width="320" height="160" alt="Challenge" /> |  <img src="output_videos/harder_challenge_video_output.gif" width="320" height="160" alt="Harder" />
  
+Required Files
+---
+- [CarND-Advanced-Lane-Lines.ipynb](./notebook/CarND-Advanced-Lane-Lines.ipynb) ( Note book contianing run of implementation )
+- [README.md](./README.md) (a report writeup markdown file)
+- [project_video_output.mp4](./output_videos/project_video_output.mp4) (a video output that applies advance lane lines)
 
 
 Camera Calibration
