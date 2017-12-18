@@ -90,14 +90,20 @@ Pipeline (test images)
 ### [Polynomial Fitting](./output_images/polyfit.png)
 - [Result](./notebook/CarND-Advanced-Lane-Lines.ipynb) wrap and unwrap perspective transform.
   <br><img src="./output_images/polyfit.png" width="390" height="490" alt="Point" />
-- polyfit function like [sliding_window_poly_fit() and polyfit_from_previous()](./notebook/CarND-Advanced-Lane-Lines.ipynb) identify lane-line pixels and fit their positions with a polynomial.
+- polyfit function's like [sliding_window_poly_fit() and polyfit_from_previous()](./notebook/CarND-Advanced-Lane-Lines.ipynb) identify lane-line pixels and fit their positions with a polynomial.
 - histogram peaks of bottom half of the binary thresholded image is used to find base of left and right line(as shown above).
 - use a sliding window, placed around the line centers, to find and follow the lines up to the top of the frame to identify lane-line pixels and then fit a 2 degree polynomial.
 
-## Pixel Histogram Analysis
-
-## Polynomial Fitting
-
+### [Radius of curvature](./notebook/CarND-Advanced-Lane-Lines.ipynb)
+  <br><img src="./output_images/curve.png" width="820" height="450" alt="Point" />
+- [Reference](https://www.intmath.com/applications-differentiation/8-radius-curvature.php)
+- [curvature() function](./notebook/CarND-Advanced-Lane-Lines.ipynb) is responsible to calculate radius of curvature and vehicle offset with center. 
+- road curve either left or right affects vehicle position estimation which happen at top then bottom thus the value 720 and 900 for calculating polynomial intercept.
+- fit new polynomials to x,y in world space
+- calculate the radii of curvature
+- calculate car_pos, lane_center and vechicle offset
+- assumption camera is mounted at the center of the car and deviation of midpoint of the lane from center of image.
+	
 ## Overlay & Inverse Transformation
 
 
