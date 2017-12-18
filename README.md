@@ -164,9 +164,11 @@ However the position estimate is not accurate. When the car is in its left-most 
      - [Project Video After Review](./output_videos/project_video_output_review.mp4)
      - [Change made:]((./notebook/CarND-Advanced-Lane-Lines.ipynb))
        -- updated src and dst as below
+       ```
     	src = np.float32([[30, img.shape[0]], [555, 460], 
                       [700, 460], [1000, img.shape[0]]])
     	dst = np.float32([[75, img.shape[0]], [75, 0], 
                       [1050, 0], [960, img.shape[0]]])
+	```
 ---
 
