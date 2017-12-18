@@ -89,7 +89,7 @@ Pipeline (test images)
 
 ### [Polynomial Fitting](./output_images/polyfit.png)
 - [Result](./notebook/CarND-Advanced-Lane-Lines.ipynb) wrap and unwrap perspective transform.
-  <br><img src="./output_images/birds-eye.png" width="390" height="490" alt="Point" />
+  <br><img src="./output_images/polyfit.png" width="390" height="490" alt="Point" />
 
 Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 	
