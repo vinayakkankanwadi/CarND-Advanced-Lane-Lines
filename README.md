@@ -104,6 +104,12 @@ Pipeline (test images)
 - calculate car_pos, lane_center and vechicle offset
 - assumption camera is mounted at the center of the car and deviation of midpoint of the lane from center of image.
 	
+### [Example of plotted result to identify lane area](./output_images/process-result.png)
+  <br><img src="./output_images/process-result.png" width="400" height="230" alt="Result" />
+- [process_image()](./notebook/CarND-Advanced-Lane-Lines.ipynb) function does the detecting of lane lines for the above image.
+- indicated lane boundaries on original image
+- it shows the lanes, curvature and position from center(in meters)
+
 ## Overlay & Inverse Transformation
 
 
