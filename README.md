@@ -119,5 +119,24 @@ Pipeline (video)
 - outputs generated regarding the radius of curvature of lane and vechicle position within the lane
 - pipeline correctly map's out curved lines and does not fail on shadows or pavement color changes
 
+Discussion
+---
+- There was no good fit solution as such. One had to try different combinations and thresholds.
+- Right combination of color channel and gradient.
+- Perspective transform values for SRC and DST again had to be tried for different values.
+- Wrapped images considered only for 2 lines.
+- Challenge video fails as it has 3 lines from histogram peak
+
+### Things that can be done better
+- Normalizing image, lighting conditions, shadows, discoloration
+- Narrow down area or region of interest
+- Adding Denoising
+- Consider threshold of more than 2 lines, probably discard using region of interest of discard pixel near polyfit
+- handling illumination color shades like in challenge video
+
+Suggestions to Make Your Project Stand Out!
+---
+- [Challenge Video](./output_videos/challenge_video_output.mp4)
+- [Hard Challenge Video](./output_videos/harder_challenge_video_output.mp4)
 ---
 
