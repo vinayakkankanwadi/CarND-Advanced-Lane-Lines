@@ -58,12 +58,15 @@ Camera Calibration
   <br><img src="output_images/point-calibration.PNG" width="850" height="240" alt="Point" />
 - [Chess Undistort](./notebook/CarND-Advanced-Lane-Lines.ipynb) Ref In [7]
   - cv2.undistort: to undistort image using the calibated camera
+  - result can be found in [./output_images/undistorted_calibrationX](./output_images/)
   <br><img src="output_images/chess-undistort.PNG" width="850" height="240" alt="Point" />
-- Car Line Lane Undistort
-  <br><img src="output_images/car-undistort.PNG" width="850" height="240" alt="Point" />
 
-Pipeline
+Pipeline (test images)
 ---
+### 1. Example of Distortion Corrected Image
+  - cv2.undistort: to undistort image using the calibated camera
+  - result can be found in [./output_images/undistorted_testX.jpg](./output_images/) and [./output_images/undistorted_straight_linesX.jpg](./output_images/) 
+  <br><img src="output_images/car-undistort.PNG" width="850" height="240" alt="Point" />
 
 ## Distortion Correction
 
