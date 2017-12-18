@@ -55,6 +55,27 @@ Camera Calibration
 - Car Line Lane Undistort
   <br><img src="output_images/car-undistort.PNG" width="850" height="240" alt="Point" />
 
+Pipeline
+---
+
+## Distortion Correction
+
+## Lane Mask Generation
+- Color Channel Selection
+- Sobel Operation
+- Gradient Magnitude & Direction
+- Color Isolation
+- High Intensity Detection
+- Noise Reduction
+
+## Perspective Transformation
+
+## Pixel Histogram Analysis
+
+## Polynomial Fitting
+
+## Overlay & Inverse Transformation
+
 
 OpenCV functions or other methods were used to calculate the correct camera matrix and distortion coefficients using the calibration chessboard images provided in the repository (note these are 9x6 chessboard images, unlike the 8x6 images used in the lesson). The distortion matrix should be used to un-distort one of the calibration images provided as a demonstration that the calibration is correct. Example of undistorted calibration image is Included in the writeup (or saved to a folder).
 
