@@ -56,7 +56,7 @@ Camera Calibration
   - cv2.calibrateCamera: to calibrate camera
   - result can be found in [./output_images/corner_x](./output_images/)
   <br><img src="output_images/point-calibration.PNG" width="850" height="240" alt="Point" />
-- Chess Undistort
+- [Chess Undistort](./notebook/CarND-Advanced-Lane-Lines.ipynb) Ref In [7]
   - cv2.undistort: to undistort image using the calibated camera
   <br><img src="output_images/chess-undistort.PNG" width="850" height="240" alt="Point" />
 - Car Line Lane Undistort
