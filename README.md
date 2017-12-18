@@ -112,6 +112,7 @@ Pipeline (test images)
 
 Pipeline (video)
 ---
+  <img src="output_videos/project_video_out.gif" width="320" height="160" alt="Project" />
 - [RESULT](https://github.com/vinayakkankanwadi/CarND-Advanced-Lane-Lines#result)
 - [Project Original Video]()
 - [Project Output Video]()
@@ -136,6 +137,7 @@ Discussion
 
 Suggestions to Make Your Project Stand Out!
 ---
+As shown in above in Result the challenge video and hard challenge video have a hard time when using the pipeline :)
 - [Challenge Video](./output_videos/challenge_video_output.mp4)
 - [Hard Challenge Video](./output_videos/harder_challenge_video_output.mp4)
 ---
