@@ -70,8 +70,7 @@ Pipeline (test images)
 
 ### [Create threshold binary image](./output_images/threshold-binary.PNG)
 - Result
-  <br><img src="./output_images/threshold-binary.PNG" width="850" height="240" alt="Point" />
-   
+  <br><img src="./output_images/threshold-binary.PNG" width="850" height="240" alt="Point" /> 
 - [undistort_and_threshold()](./notebook/CarND-Advanced-Lane-Lines.ipynb) function applies color transformation and sobel operator to generated thresholded binary image.
 - **Color Channel Selection:** HLS color space Saturation channel used due to better lane lines detection
 - **Gradients:** Sobel threshold X used as it identify lanes better
@@ -79,13 +78,10 @@ Pipeline (test images)
 - Color channel selection and Gradients are used to obtain thresholded binary image
   <br><img src="./output_images/color-channel.png" width="800" height="640" alt="Point" />
 
-## Lane Mask Generation
-- Gradient Magnitude & Direction
-- Color Isolation
-- High Intensity Detection
-- Noise Reduction
+### [Perspective Transformation](./output_images/birds-eye.png)
+- Result
+  <br><img src="./output_images/birds-eye.png" width="850" height="240" alt="Point" />
 
-## Perspective Transformation
 
 ## Pixel Histogram Analysis
 
