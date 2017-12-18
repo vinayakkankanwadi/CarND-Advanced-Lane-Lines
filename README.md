@@ -112,7 +112,7 @@ Pipeline (test images)
 
 Pipeline (video)
 ---
-  <br><img src="output_videos/project_video_out.gif" width="320" height="160" alt="Project" />
+  <br><img src="output_videos/project_video_out.gif" width="600" height="330" alt="Project" />
 - [RESULT](https://github.com/vinayakkankanwadi/CarND-Advanced-Lane-Lines#result)
 - [Project Original Video](./project_video.mp4)
 - [Project Output Video](./output_videos/project_video_output.mp4)
