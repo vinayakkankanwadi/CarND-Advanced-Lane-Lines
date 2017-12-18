@@ -53,6 +53,7 @@ Camera Calibration
   - Use a range as in 5,6 to 6,7,8,9 you will find how the below function work
   - cv2.findChessboardCorners: to find corners
   - cv2.drawChessboardCorners: to draw the corner
+  - result can be found in [../output_images/corner_x](../output_images/)
   <br><img src="output_images/point-calibration.PNG" width="850" height="240" alt="Point" />
 - Chess Undistort
   <br><img src="output_images/chess-undistort.PNG" width="850" height="240" alt="Point" />
