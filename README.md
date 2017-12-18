@@ -48,7 +48,7 @@ Required Files
 
 Camera Calibration
 ---
-- [Camera correct matrix points Ref In [3]] (./notebook/CarND-Advanced-Lane-Lines.ipynb)
+- [Camera correct matrix points](./notebook/CarND-Advanced-Lane-Lines.ipynb) Ref In [3]
   - chessboard size to 9x6 however just using 9x6 you will 3 images would fail when finding points
   - Use a range as in 5,6 to 6,7,8,9 you will find how the below function work
   - cv2.findChessboardCorners: to find corners
