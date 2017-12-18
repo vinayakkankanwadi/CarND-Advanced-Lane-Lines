@@ -65,7 +65,7 @@ Pipeline (test images)
 ---
 ### 1. Example of Distortion Corrected Image
   - cv2.undistort: to undistort image using the calibated camera
-  - result can be found in [./output_images/undistorted_testX.jpg](./output_images/) and [./output_images/undistorted_straight_linesX.jpg](./output_images/) 
+  - result can be found in **./output_images** [test1](./output_images/undistorted_test1.jpg), [test2](output_images/undistorted_test2.jpg), [test3](output_images/undistorted_test3.jpg), [test4](output_images/undistorted_test4.jpg), [test5](output_images/undistorted_test5.jpg), [test6](output_images/undistorted_test6.jpg), [straight1](output_images/undistorted_straight_lines1.jpg), [straight2](output_images/undistorted_straight_lines1.jpg)
   <br><img src="output_images/car-undistort.PNG" width="850" height="240" alt="Point" />
 
 ## Distortion Correction
