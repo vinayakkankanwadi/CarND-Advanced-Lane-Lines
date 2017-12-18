@@ -144,5 +144,29 @@ Suggestions to Make Your Project Stand Out!
 As shown in above in Result the challenge video and hard challenge video have a hard time when using the pipeline :)
 - [Challenge Video](./output_videos/challenge_video_output.mp4)
 - [Hard Challenge Video](./output_videos/harder_challenge_video_output.mp4)
+
+Review Feedback
+---
+The radius of curvature seems to be consistent with the strength of the curve. Well done.
+
+However the position estimate is not accurate. When the car is in its left-most position around 0:31 (around 0.5m left of the center), the estimate shows near 0 offset. This is because the perspective transformation shifts the whole scene (see below, on the original image, the center of the lane is close to the center of the image, however after the perspective transformation the center of the lane is much more to the left). This can be fixed in two ways:
+
+    either you change the perspective transfromation by changing src & dst so that the scene is not shifted
+    or simply you add a correction tag to the result.
+    
+## Fix Result Before and After
+   - **RESULT** as expected
+     - Redius of curvature **before:1193.27 after:1165.53**
+     - Position estimate **before:0.14 after:0.44**
+     - Snapshot as below
+       <br> <img src="output_images/review.png" width="717" height="810" alt="review" />
+     - [Project Video Before Review](./output_videos/project_video_output.mp4)
+     - [Project Video After Review](./output_videos/project_video_output_review.mp4)
+     - [Change made:]((./notebook/CarND-Advanced-Lane-Lines.ipynb))
+       -- updated src and dst as below
+    	src = np.float32([[30, img.shape[0]], [555, 460], 
+                      [700, 460], [1000, img.shape[0]]])
+    	dst = np.float32([[75, img.shape[0]], [75, 0], 
+                      [1050, 0], [960, img.shape[0]]])
 ---
 
