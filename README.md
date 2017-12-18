@@ -79,8 +79,13 @@ Pipeline (test images)
   <br><img src="./output_images/color-channel.png" width="800" height="640" alt="Point" />
 
 ### [Perspective Transformation](./output_images/birds-eye.png)
-- Result
+- [Result](./notebook/CarND-Advanced-Lane-Lines.ipynb) wrap and unwrap perspective transform.
   <br><img src="./output_images/birds-eye.png" width="850" height="240" alt="Point" />
+- [All image Result](./output_images/bird-eye-all.png)
+- using cv2.getPerspectiveTransform(src, dst) for perspective transform
+- using cv2.getPerspectiveTransform(dst, src) for perspective transform [DST/SRC inversed]
+- using cv2.warpPerspective(img, M, (w,h), flags=cv2.INTER_LINEAR) to wrap perspective
+- Define 4 source and 4 destination points (this is done by trail and error and checking which workd better)
 
 
 ## Pixel Histogram Analysis
