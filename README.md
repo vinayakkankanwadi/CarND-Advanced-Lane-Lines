@@ -90,11 +90,9 @@ Pipeline (test images)
 ### [Polynomial Fitting](./output_images/polyfit.png)
 - [Result](./notebook/CarND-Advanced-Lane-Lines.ipynb) wrap and unwrap perspective transform.
   <br><img src="./output_images/polyfit.png" width="390" height="490" alt="Point" />
-
-Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
-	
-
-Methods have been used to identify lane line pixels in the rectified binary image. The left and right line have been identified and fit with a curved functional form (e.g., spine or polynomial). Example images with line pixels identified and a fit overplotted should be included in the writeup (or saved to a folder) and submitted with the project.
+- polyfit function like [sliding_window_poly_fit() and polyfit_from_previous()](./notebook/CarND-Advanced-Lane-Lines.ipynb) identify lane-line pixels and fit their positions with a polynomial.
+- histogram peaks of bottom half of the binary thresholded image is used to find base of left and right line(as shown above).
+- use a sliding window, placed around the line centers, to find and follow the lines up to the top of the frame to identify lane-line pixels and then fit a 2 degree polynomial.
 
 ## Pixel Histogram Analysis
 
