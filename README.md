@@ -95,7 +95,7 @@ Pipeline (test images)
 - use a sliding window, placed around the line centers, to find and follow the lines up to the top of the frame to identify lane-line pixels and then fit a 2 degree polynomial.
 
 ### [Radius of curvature](./notebook/CarND-Advanced-Lane-Lines.ipynb)
-  <br><img src="./output_images/curve.png" width="720" height="350" alt="Point" />
+  <br><img src="./output_images/curve.png" width="620" height="250" alt="Point" />
 - [Reference](https://www.intmath.com/applications-differentiation/8-radius-curvature.php)
 - [curvature() function](./notebook/CarND-Advanced-Lane-Lines.ipynb) is responsible to calculate radius of curvature and vehicle offset with center. 
 - road curve either left or right affects vehicle position estimation which happen at top then bottom thus the value 720 and 900 for calculating polynomial intercept.
