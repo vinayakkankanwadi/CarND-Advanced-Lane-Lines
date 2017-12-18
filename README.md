@@ -33,6 +33,8 @@ Approach
 - Determine the curvature of the lane and vehicle position with respect to center.
 - Warp the detected lane boundaries back onto the original image.
 - Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
+- Apply the image pipeline onto project video.
+- Reflection
 
 Result
 ---
@@ -42,7 +44,7 @@ Result
  
 Required Files
 ---
-- [CarND-Advanced-Lane-Lines.ipynb](./notebook/CarND-Advanced-Lane-Lines.ipynb) ( Note book contianing run of implementation )
+- [./notebook/CarND-Advanced-Lane-Lines.ipynb](./notebook/CarND-Advanced-Lane-Lines.ipynb) ( Note book contianing run of implementation )
 - [README.md](./README.md) (a report writeup markdown file)
 - [project_video_output.mp4](./output_videos/project_video_output.mp4) (a video output that applies advance lane lines)
 
