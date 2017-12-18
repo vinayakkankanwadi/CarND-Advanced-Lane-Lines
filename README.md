@@ -47,6 +47,8 @@ Required Files
 - [./notebook/CarND-Advanced-Lane-Lines.ipynb](./notebook/CarND-Advanced-Lane-Lines.ipynb) ( Note book contianing run of implementation )
 - [README.md](./README.md) (a report writeup markdown file)
 - [project_video_output.mp4](./output_videos/project_video_output.mp4) (a video output that applies advance lane lines)
+- [/output_images](/output_images) ( folder where all the output and writeup images are present)
+- [/output_videos](/output_videos) ( folder where all the output of video and gif are present)
 
 Camera Calibration
 ---
