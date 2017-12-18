@@ -69,27 +69,18 @@ Pipeline (test images)
   <br><img src="output_images/car-undistort.PNG" width="850" height="240" alt="Point" />
 
 ### [Create threshold binary image](./output_images/threshold-binary.PNG)
+- Result
   <br><img src="./output_images/threshold-binary.PNG" width="850" height="240" alt="Point" />
-- Color Channel Selection
+   
+   [undistort_and_threshold()](./notebook/CarND-Advanced-Lane-Lines.ipynb) function applies color transformation and sobel operator to generated thresholded binary image.
+
+- **Color Channel Selection:** HLS color space Saturation channel used due to better lane lines detection
+- **Gradients:** Sobel threshold X used as it identify lanes better
+- Directional and Magnitude thresholds has very minimal to no effect on thresholded binary image.
+- Color channel selection and Gradients are used to obtain thresholded binary image
   <br><img src="./output_images/color-channel.png" width="800" height="640" alt="Point" />
 
-- Color transform
-- Gradients
-- 
-undistort_and_threshold() function in code cell 6 applies color transformation and sobel operator to generated thresholded binary image.
-
-As you can see in the images below "Saturation" (higher threshold) and "Hue" (lower threshold) channel of HSV image detects lane lines better than others. Also, absolute sobel threshold X method seem to identify lanes better than other thresholding methods.
-
-Together with HSV color transform (H and S channel) and Sobel threshold X gradient, we obtain thresholded binary image.
-
-Directional and Magnitude thresholds has very minimal to no effect on thresholded binary image.
-Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image. Provide an example of a binary image result.
-	
-
-A method or combination of methods (i.e., color transforms, gradients) has been used to create a binary image containing likely lane pixels. There is no "ground truth" here, just visual verification that the pixels identified as part of the lane lines are, in fact, part of the lines. Example binary images should be included in the writeup (or saved to a folder) and submitted with the project.
-
 ## Lane Mask Generation
-- Sobel Operation
 - Gradient Magnitude & Direction
 - Color Isolation
 - High Intensity Detection
