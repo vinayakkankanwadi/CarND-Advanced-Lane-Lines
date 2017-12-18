@@ -9,7 +9,7 @@ In this project, we will build a software pipeline to detect lane lines on video
 
 Goals
 ---
-- [Camera Calibration](./CarND-Advanced-Lane-Lines#camera-calibration)
+- [Camera Calibration](./README.md#camera-calibration)
   - Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
 - [Pipeline (test images)]()
   - Apply a distortion correction to raw images.
